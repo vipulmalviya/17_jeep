@@ -1,0 +1,466 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+body {
+}
+header {
+  position: relative;
+  top: 0;
+  background: url("img/bg5.jpg") no-repeat;
+  background-size: 100vw;
+  width: 100vw;
+  height: 100vh;
+}
+/* home section styling */
+.Navbar {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+  color: white;
+  z-index: 99;
+  width: 100vw;
+}
+.left h1 {
+  font-size: 30px;
+}
+.items li a {
+  padding-right: 8px;
+  text-decoration: none;
+  color: white;
+}
+.items a:hover,
+.items a.active {
+  color: rgb(255, 196, 0);
+}
+.items li {
+  list-style-type: none;
+  margin: 0 2rem;
+}
+
+.Navbar__Items {
+  display: flex;
+}
+
+.Navbar__Items-right {
+  margin-left: auto;
+}
+
+.items-toggle {
+  display: none;
+}
+.items-toggle img {
+  width: 20px;
+  background-color: white;
+}
+.icone img {
+  cursor: pointer;
+  width: 19px;
+  margin: 10px;
+}
+.le1 {
+  margin: 10rem 2rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 25vw;
+  height: 34vh;
+}
+.le1 h2 {
+  font-weight: bolder;
+  font-size: 50px;
+  margin: 10px 0;
+  letter-spacing: 0.7rem;
+}
+.le1 p {
+  margin: 5px 0;
+  word-spacing: 0.5rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+.btn {
+  margin: 20px 0;
+  padding: 1rem;
+  border-radius: 25px;
+  border: 2px solid rgb(255, 196, 0);
+  color: rgb(255, 196, 0);
+  background: transparent;
+  font-weight: bold;
+  width: 10rem;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.btn:hover {
+  background-color: rgb(255, 196, 0);
+  color: white;
+}
+
+/* about us section styling */
+
+.about {
+  background: url("img/bg0.jpg") no-repeat;
+  background-size: 100vw;
+  width: 100vw;
+  height: 100vh;
+  margin: 0rem 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.le2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  color: white;
+  width: 50vw;
+  height: 50vh;
+  margin: 30px;
+}
+.le2 h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  margin: 10px 0;
+  color: black;
+}
+.le2 span {
+  color: rgb(255, 196, 0);
+}
+
+.le2 p {
+  margin: 5px 0;
+  word-spacing: 0.5rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  color: black;
+}
+.le2 h2 {
+  margin: 5px 0;
+  word-spacing: 0.5rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.1rem;
+  color: black;
+}
+.btn2 {
+  margin: 20px 0;
+  padding: 1rem;
+  border-radius: 25px;
+  border: 2px solid;
+  color: black;
+  background: transparent;
+  font-weight: bold;
+  width: 10rem;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.specification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+  height: 50vh;
+  padding: 5rem;
+}
+.card {
+  width: 25vw;
+  height: 20vh;
+  text-align: center;
+}
+.card p {
+  margin: 10px 0;
+  line-height: 1.5rem;
+  color: black;
+  font-size: 1rem;
+}
+.card h2 {
+  font-size: 1rem;
+}
+.card img {
+  background-color: rgb(245, 245, 245);
+  color: white;
+  box-shadow: 2px 5px 10px gray;
+  border-radius: 70%;
+  padding: 1rem;
+  width: 7vw;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+.card img:hover {
+  box-shadow: 2px 5px 15px gray;
+}
+
+/* vehecal section styling */
+#vehicles {
+  background: url("img/bg6.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.hedding h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 3rem;
+  pointer-events: none;
+  margin-top:1rem ;
+}
+.vihicel {
+  display: flex;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 2rem 0;
+}
+.card2 {
+  padding: 1rem;
+  width: 33vw;
+  height: 40vh;
+  text-align: center;
+}
+.card2 h2 {
+  font-weight: bolder;
+  color: white;
+  margin: 30px 0;
+  font-size: 2rem;
+}
+.card2 span {
+  color: gray;
+}
+.card2 p {
+  margin: 20px 0;
+  line-height: 1.5rem;
+  color: rgb(255, 196, 0);
+  font-weight: bolder;
+  font-size: 30px;
+}
+.card2 img {
+  cursor: pointer;
+  width: 90%;
+}
+
+/* gallery section styling */
+.album {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.gallery {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+}
+.hedding2 h1 {
+  color: black;
+  font-weight: bolder;
+  font-size: 3rem;
+  pointer-events: none;
+  margin: 20px;
+}
+
+.img {
+  width: 30vw;
+}
+.gallery div h2 {
+  position: absolute;
+  bottom: 12px;
+  color: rgb(116, 113, 113);
+  margin: 0 5px;
+  text-shadow: 2px 2px 1px black;
+}
+.gallery img:hover,
+.gallery div h2.active3 {
+  color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 15vh;
+  background: transparent;
+  padding: 2rem;
+}
+.navbar li {
+  list-style-type: none;
+  margin: 0 2rem;
+  color: gray;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.navbar li:hover,
+.navbar li a.active2 {
+  color: black;
+  text-decoration: underline;
+}
+
+/* contact form style */
+
+#contact {
+  height: 130vh;
+  width: 100vw;
+  background-color: #131217;
+}
+.contact-form {
+  margin: 3rem 10rem;
+  display: flex;
+  flex-direction: row;
+}
+.hedding3 {
+  text-align: center;
+  color: white;
+}
+form h1 {
+  color: white;
+}
+.hedding3 h1 {
+  font-weight: bolder;
+  font-size: 2rem;
+  pointer-events: none;
+  padding: 1rem;
+}
+.hedding3 p {
+  color: gray;
+}
+
+.le3 {
+  width: 30vw;
+  height: 60vh;
+  border: 1px solid gray;
+  padding: 2.5rem;
+}
+.le3 h2 {
+  color: white;
+}
+
+.le3 form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.le3 form label {
+  color: white;
+  margin: 10px;
+  transition: .1 ease-in;
+  cursor: pointer;
+}
+.le3 form label:hover {
+  color: rgb(255, 196, 0);
+}
+
+.le3 form input[type="checkbox"]:checked {
+  accent-color: rgb(255, 196, 0);
+}
+
+.ri1 {
+  width: 50vw;
+  height: 60vh;
+  border: 1px solid gray;
+  padding: 2rem;
+}
+.ri1 form {
+  display: flex;
+  flex-direction: column;
+}
+.ri1 form label {
+  color: gray;
+  margin: 10px;
+}
+.ri1 form input {
+  padding: 1rem;
+  border-radius: 40px;
+  border: none;
+  margin: 10px;
+  background-color: #2c2c36;
+  cursor: pointer;
+  transition: .1s ease-in;
+}
+.ri1 form input:hover{
+  background-color: #3f3f4b;
+}
+
+.ri1 form input[type="checkbox"]:checked {
+  accent-color: rgb(255, 196, 0);
+}
+.ri1 form label span {
+  color: white;
+  font-weight: 555;
+}
+
+footer {
+  height: 20vh;
+  width: 100vw;
+  padding: 5rem;
+  color: white;
+  background-color: #131217;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+footer h1 {
+  color: white;
+  font-weight: bolder;
+  font-size: 3rem;
+  pointer-events: none;
+}
+footer p {
+  color: gray;
+}
+
+
+
+
+.doc{
+display: flex;
+justify-content: center;
+text-align: left;
+color: white;
+}
+.box{
+margin: 0 5rem;
+}
+.box h1{
+  text-transform: uppercase;
+  margin: 1rem 0;
+  font-weight: 600;
+  font-size: .9rem;
+}
+.box p{
+  margin: .7rem 0;
+  font-size: .8rem;
+  color: #b1b1c1;
+}
+.box1 p{
+  margin: .7rem 0;
+  font-size: .8rem;
+  color: #b1b1c1;
+}
+.box1{
+  width: 30vw;
+}
+.box1 p span{
+  color: rgb(255, 196, 0);
+}
+

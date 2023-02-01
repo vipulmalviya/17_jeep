@@ -1,0 +1,491 @@
+@media only screen and (max-width: 1200px) {
+  header {
+    width: 100vw;
+    height: 100vh;
+  }
+  .Navbar {
+    text-align: center;
+    background-color: #1f1f29;
+    position: fixed;
+    top: 0;
+  }
+  .items {
+    text-align: center;
+    margin: 20px;
+  }
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+  .icone {
+    display: none;
+  }
+
+  .Navbar__Items {
+    display: none;
+    height: 100vh;
+    margin: 20px;
+  }
+
+  .Navbar__Items-right {
+    margin-left: 0rem;
+  }
+
+  .Navbar__ToggleShow {
+    display: flex;
+  }
+
+  .items-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    top: 19px;
+    right: 50px;
+    cursor: pointer;
+  }
+  .left h1 {
+    font-size: 1rem;
+  }
+  .le1 {
+    position: absolute;
+    top: 5%;
+    width: 44vw;
+    margin: 6rem 2rem;
+    width: 25vw;
+    height: 32vh;
+  }
+  .le1 h2 {
+    font-size: 2rem;
+    margin: 5px 0;
+    letter-spacing: 0.5rem;
+  }
+  .le1 p {
+    margin: 5px 0;
+    word-spacing: 0rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+  }
+  .btn {
+    margin: 20px 0;
+    padding: 0.5rem;
+    width: 7rem;
+  }
+  .btn2 {
+    margin: 20px 0;
+    padding: 0.5rem;
+    width: 7rem;
+  }
+
+  /* about style */
+  .about {
+    margin: 1rem 0;
+    height: 80vh;
+  }
+  .le2 {
+    width: 50vw;
+    height: 50vh;
+    margin: 10px;
+  }
+  .le2 h1 {
+    font-size: 1.5rem;
+    margin: 5px 0;
+  }
+  .le2 p {
+    margin: 2.5px 0;
+    font-size: 0.7rem;
+    word-spacing: 0rem;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+  }
+  .le2 h2 {
+    margin: 2.5px 0;
+  }
+  .specification {
+    padding: 1rem;
+    height: 30vh;
+  }
+  .card {
+    width: 40vw;
+    height: 20vh;
+  }
+  .card p {
+    margin: 7px 0;
+    line-height: 1rem;
+    font-size: 0.5rem;
+  }
+  .card h2 {
+    font-size: 0.6rem;
+  }
+  .card img {
+    border-radius: 60%;
+    width: 12vw;
+  }
+
+  /* vehecal section styling */
+  .hedding h1 {
+    font-size: 2rem;
+  }
+  .vihicel {
+    padding: 3rem 0;
+  }
+  .card2 h2 {
+    margin: 20px 0;
+    font-size: 0.8rem;
+  }
+  .card2 span {
+    color: gray;
+    font-size: 0.5rem;
+  }
+  .card2 p {
+    margin: 20px 0;
+    line-height: 1.5rem;
+    color: rgb(255, 196, 0);
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .btn {
+    margin: 15px 0;
+  }
+
+  /* gallery section styling */
+  .album {
+    height: 60vh;
+    justify-content: space-around;
+  }
+
+  .navbar {
+    height: 10vh;
+    padding: 1rem;
+  }
+  .hedding2 h1 {
+    font-size: 2rem;
+    margin: 1px;
+  }
+  .gallery div h2 {
+    font-size: 1rem;
+  }
+  .navbar li {
+    margin: 0 0.5rem;
+    font-size: 0.7rem;
+  }
+  .img {
+    width: 35vw;
+  }
+
+  /* contact form style */
+
+  .contact-form {
+    margin: 1.5rem 3rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .hedding3 h1 {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .hedding3 p {
+    font-size: 0.6rem;
+  }
+  form h1 {
+    font-size: 1rem;
+    padding: 1.5rem;
+  }
+  .le3 {
+    width: 30vw;
+    height: 60vh;
+    padding: 0.5rem;
+  }
+  .le3 h2 {
+    font-size: 1rem;
+    margin: 30px 0;
+  }
+  .le3 form {
+    margin: 30px 0;
+  }
+  .le3 form label {
+    margin: 10px 0;
+    font-size: 0.7rem;
+  }
+
+  .ri1 {
+    width: 50vw;
+    height: 60vh;
+    padding: 1rem;
+  }
+  .ri1 form label {
+    margin: 5px;
+    font-size: 0.7rem;
+  }
+  .ri1 form input {
+    padding: 0.5rem;
+  }
+  .ri1 form label span {
+    color: white;
+    font-weight: 100;
+  }
+  .hedding3 {
+    font-size: 1.2rem;
+    margin: 19px 0;
+  }
+
+  footer {
+    height: 10vh;
+    padding: 2rem;
+  }
+  footer h1 {
+    font-size: 1.5rem;
+    pointer-events: none;
+  }
+  footer p {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .left h1 {
+    font-size: 1.5rem;
+  }
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+  }
+  .icone {
+    display: none;
+  }
+
+  .Navbar__Items {
+    display: none;
+  }
+
+  .Navbar__Items-right {
+    margin-left: 0;
+  }
+
+  .Navbar__ToggleShow {
+    display: flex;
+  }
+
+  .items-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    cursor: pointer;
+  }
+
+  .le1 h2 {
+    font-size: 1rem;
+    margin: 2px 0;
+    letter-spacing: 0.5rem;
+  }
+  .le1 {
+    width: 44vw;
+    margin: 3rem 1rem;
+    width: 25vw;
+    height: 32vh;
+  }
+
+  .le1 p {
+    margin: 3px 0;
+    word-spacing: 0rem;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+    font-size: 0.5rem;
+  }
+  .btn {
+    margin: 15px 0;
+    padding: 0.1rem;
+    width: 6rem;
+    font-weight: 100;
+  }
+  .btn2 {
+    margin: 20px 0;
+    padding: 0.5rem;
+    width: 7rem;
+  }
+
+  /* about style */
+  .about {
+    margin: 1rem 0;
+  }
+  .le2 {
+    width: 50vw;
+    height: 50vh;
+    margin: 10px;
+  }
+  .le2 h1 {
+    font-size: 1.5rem;
+    margin: 5px 0;
+  }
+  .le2 p {
+    margin: 2.5px 0;
+    font-size: 0.7rem;
+    word-spacing: 0rem;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+  }
+  .le2 h2 {
+    margin: 2.5px 0;
+  }
+  .specification {
+    padding: 1rem;
+    height: 30vh;
+  }
+  .card {
+    width: 40vw;
+    height: 20vh;
+  }
+  .card p {
+    margin: 7px 0;
+    line-height: 1rem;
+    font-size: 0.5rem;
+  }
+  .card h2 {
+    font-size: 0.6rem;
+  }
+  .card img {
+    border-radius: 60%;
+    width: 12vw;
+  }
+
+  /* vehecal section styling */
+
+  .hedding h1 {
+    font-size: 1rem;
+  }
+  .vihicel {
+    padding: 6rem 0;
+    height: 70vh;
+  }
+  .card2 h2 {
+    margin: 20px 0;
+    font-size: 0.7rem;
+  }
+  .card2 span {
+    color: gray;
+    font-size: 0.5rem;
+  }
+  .card2 p {
+    margin: 20px 0;
+    font-size: 15px;
+  }
+  .btn {
+    margin: 15px 0;
+  }
+
+  /* gallery section styling */
+  .album {
+    height: 50vh;
+  }
+
+  .navbar {
+    height: 15vh;
+    padding: 1rem;
+  }
+  .hedding2 h1 {
+    font-size: 2rem;
+    margin: 15px;
+  }
+  .gallery div h2 {
+    font-size: 1rem;
+  }
+  .navbar li {
+    margin: 0 0.5rem;
+    font-size: 0.7rem;
+  }
+  .img {
+    width: 35vw;
+  }
+
+  /* contact form style */
+  #contact {
+    height: 90vh;
+  }
+  .contact-form {
+    margin: 1.5rem 3rem;
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+  }
+  .hedding3 h1 {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .hedding3 p {
+    font-size: 0.6rem;
+  }
+  form h1 {
+    font-size: 1rem;
+    padding: 1.5rem;
+  }
+  .le3 {
+    width: 30vw;
+    height: 55vh;
+    padding: 0.5rem;
+  }
+  .le3 h2 {
+    font-size: 1rem;
+    margin: 30px 0;
+  }
+  .le3 form {
+    margin: 30px 0;
+  }
+  .le3 form label {
+    margin: 10px 0;
+    font-size: 0.7rem;
+  }
+
+  .ri1 {
+    width: 50vw;
+    height: 55vh;
+    padding: 1rem;
+  }
+  .ri1 form label {
+    margin: 5px;
+    font-size: 0.7rem;
+  }
+  .ri1 form input {
+    padding: 0.5rem;
+  }
+  .ri1 form label span {
+    color: white;
+    font-weight: 100;
+  }
+  .hedding3 {
+    font-size: 1.2rem;
+    margin: 19px 0;
+  }
+
+  footer {
+    height: 10vh;
+    padding: 2rem;
+  }
+  footer h1 {
+    font-size: 1.5rem;
+    pointer-events: none;
+  }
+  footer p {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  header {
+    height: 35vh;
+  }
+  .about {
+    margin: 0 0;
+  }
+  #vehicles {
+    height: 75vh;
+  }
+  #contact {
+    height: 90vh;
+    background-color: #1f1f29;
+  }
+  .doc{
+ display: none;
+  }
+}
